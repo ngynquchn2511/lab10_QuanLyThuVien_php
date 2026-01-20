@@ -1,0 +1,31 @@
+body {
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.book-item {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.remove-item {
+    margin-top: 0;
+}
+

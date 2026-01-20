@@ -1,0 +1,18 @@
+[19-Jan-2026 05:31:57 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:33:11 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:35:26 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:39:43 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:42:46 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:47:15 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[19-Jan-2026 05:48:57 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[20-Jan-2026 12:52:39 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\lab10\app\core/../views/borrowers/edit.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\lab10\app\core\Controller.php on line 6
+[20-Jan-2026 12:52:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\lab10\app\core/../views/borrowers/edit.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lab10\app\core\Controller.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lab10\app\controllers\BorrowersController.php(99): Controller->view('borrowers/edit', Array)
+#1 C:\xampp\htdocs\lab10\app\core\Router.php(31): BorrowersController->edit()
+#2 C:\xampp\htdocs\lab10\public\index.php(18): Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\lab10\app\core\Controller.php on line 6
+[20-Jan-2026 12:56:22 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[20-Jan-2026 12:56:38 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
+[20-Jan-2026 12:57:34 Europe/Berlin] BookRepository::getAll Error: SQLSTATE[HY093]: Invalid parameter number
